@@ -3,9 +3,6 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>思软科技满意度调查</title>
-		<!--<script type="text/javascript">
-			document.
-		</script>-->
 		<style>
 			html{
 				font-size: 62.5%;
@@ -14,13 +11,32 @@
 		<link rel="stylesheet" type="text/css" href="css/index.css"/>
 	</head>
 	<body>
-		<img class="logo" src="img/2222.png" />
-		<!--<img class="backGround" src="img/img7.jpg"/>-->
-		<form>
+		<img class="logo" src="img/page1_logo11.png" />
+		<div class="user">
+			<div class="user_class">
+				班级：
+				<select form="myForm">
+					<option>swt1610</option>	
+				</select>
+			</div>
+			<div class="user_name">
+				姓名：
+				<input form="myForm" />
+			</div>
+			<div class="user_type">
+				教师：
+				<select form="myForm">
+					<option>请选择</option>	
+				</select>
+				<select form="myForm">
+					<option>请选择</option>	
+				</select>
+			</div>
+		</div>
+		<form name="myForm">
 			<div class='container'>
 				<h1>在线教师满意度调查</h1>
 				<div class="container_text">
-					
 					<div class="container_text_font">
 						<p>1.讲师是否能够提前五分钟进教室并检查教学环境以保证准时上课</p>
 						<label><input id="one_a" type="radio" name="one"/>A:能</label>
@@ -86,5 +102,6 @@
 				<button>点击提交</button>
 			</div>
 		</form>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
 	</body>
 </html>
