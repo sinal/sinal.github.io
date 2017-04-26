@@ -22,6 +22,7 @@ body{
 		width: 100%;
 	}
 	.container{
+		font-size: 2rem;
 		position: relative;
 		width: 100%;
 		border-radius: 8px;
@@ -32,13 +33,13 @@ body{
 	h1{
 		padding-top: 20px;
 		padding-left: 10px;
-		font-size: 20px;
+		/*font-size: 20px;*/
 	}
 	.container_text{
 		margin-top: 20px;
 	}
 	.container_text_font{
-		font-size: 16px;
+		/*font-size: 16px;*/
 		margin: 10px ;
 		border:1px #ccc solid;
 		padding: 10px;
