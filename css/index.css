@@ -150,7 +150,9 @@ body{
 		position: relative;
 		width: 1200px;
 		border-radius: 8px;
-		background: #fff;
+		/*background: #fff;*/
+		background-image: url(../img/shuiyin.jpg);
+		background-size: 30%;
 		margin: 100px auto;
 		overflow: hidden;
 		margin-bottom: 20px;
