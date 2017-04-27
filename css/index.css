@@ -12,7 +12,7 @@ body{
 }
 @media only screen and (min-width: 300px ) {
 	.user{
-		position: absolute;
+		/*position: absolute;*/
 		height: 50px;
 		top: 20px;
 		left: 20px;
@@ -48,7 +48,7 @@ body{
 		width: 100%;
 	}
 	.container{
-		font-size: 5rem;
+		font-size: 1em;
 		position: relative;
 		width: 100%;
 		border-radius: 8px;
@@ -63,6 +63,7 @@ body{
 		/*font-size: 20px;*/
 	}
 	.container_text{
+		font-size: 1em;
 		margin-top: 20px;
 	}
 	.container_text_font{
@@ -80,13 +81,13 @@ body{
 		margin: 0 2px;
 	}
 	.container_text_font label{
-		margin-left: 10px;
+		margin-left: 4px;
 	}
 	.container button{
-		font-size: 20px;
+		font-size: 1.2em;
 		color: #fff;
-		width: 20%;
-		height: 50px;
+		width: 40%;
+		height: 40px;
 		border: 0;
 		background: #2E68B1;
 		margin-bottom: 50px;
