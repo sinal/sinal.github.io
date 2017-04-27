@@ -39,6 +39,7 @@ body{
 		padding: 10px;
 	} 
 	.logo{
+		display: none;
 		width: 0px;
 		position: absolute;
 		top: 10px;
